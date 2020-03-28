@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "files": ["ClientApp/app/app.main.ts"]
+}

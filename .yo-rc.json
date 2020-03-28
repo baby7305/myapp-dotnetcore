@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "namespace": "MyCompany",
+    "databaseType": "mysql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "myapp",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "creationTimestamp": 1585418984890,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "0.3.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "zh-cn", "zh-tw"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "0.3.0"
+      }
+    ]
+  }
+}
