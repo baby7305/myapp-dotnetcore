@@ -1,0 +1,24 @@
+{
+  "myappApp": {
+    "student": {
+      "home": {
+        "title": "Students",
+        "createLabel": "建立一筆新的 Student",
+        "createOrEditLabel": "建立或編輯 Student",
+        "notFound": "No Students found"
+      },
+      "created": "新的 Student 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Student 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Student 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Student {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Student"
+      },
+      "name": "Name",
+      "age": "Age",
+      "teacher": "Teacher"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "myappApp": {
+    "teacher": {
+      "home": {
+        "title": "Teachers",
+        "createLabel": "建立一筆新的 Teacher",
+        "createOrEditLabel": "建立或編輯 Teacher",
+        "notFound": "No Teachers found"
+      },
+      "created": "新的 Teacher 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Teacher 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Teacher 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Teacher {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Teacher"
+      },
+      "name": "Name",
+      "age": "Age",
+      "student": "Student"
+    }
+  }
+}

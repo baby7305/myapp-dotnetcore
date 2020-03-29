@@ -16,6 +16,9 @@ namespace MyCompany.Data {
         {
         }
 
+        public DbSet<Teacher> Teachers { get; set; }
+        public DbSet<Student> Students { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -39,6 +42,7 @@ namespace MyCompany.Data {
                 .HasForeignKey(e => e.UserId)
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Cascade);
+
         }
     }
 }
