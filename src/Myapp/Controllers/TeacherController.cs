@@ -15,7 +15,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace MyCompany.Controllers {
-    [Authorize]
     [Route("api")]
     [ApiController]
     public class TeacherController : ControllerBase {
